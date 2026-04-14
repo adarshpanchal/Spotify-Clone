@@ -7,6 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="cards.css">
 </head>
 
 <body>
@@ -32,24 +34,93 @@
         </div>
     </nav>
     <div class="container flex">
+
         <div class="library">
             <div class="libraryNav flex">
                 <div class="item">Your Library</div>
                 <div class="item">
-                    <img src="icons/plus-circle.svg" alt="">
+                    <img src="icons/plus-circle.svg" alt="add">
                 </div>
                 <div class="item">
-                    <img src="icons/arrow-right-short.svg" alt="">
+                    <img src="icons/arrow-right-short.svg" alt="expand">
                 </div>
-                <div class="item"></div>
             </div>
         </div>
-        <div class="section">Section
+
+
+        <div class="section">
+            <ul class="topselect flex">
+                <li class="topselectlist">All</li>
+                <li class="topselectlist">Music</li>
+                <li class="topselectlist">Podcast</li>
+            </ul>
+
+            <div class="card flex">
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/liked-songs-640.jpg" alt="liked">
+                    </div>
+                    <div class="playlistname">Liked Songs
+                    </div>
+                </div>
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/en2.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Your Top Songs 2025</div>
+                </div>
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/discover.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Discover Weekly</div>
+                </div>
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/trending.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Trending Now</div>
+                </div>
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/en.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">On Repeat</div>
+                </div>
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/billion.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">1 Billion Streams</div>
+                </div>
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/daily.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Daily Mix 4</div>
+                </div>
+                <div class="playlistcards flex">
+                    <div class="cardimage">
+                        <img src="images/hits.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Hot Hits</div>
+                </div>
+            </div>
+
+            <div class="name">
+                <div class="made">Made For</div>
+                <div class="myname">Adarsh</div>
+            </div>
+            
         </div>
+
     </div>
+
+
     <footer>
         Media Functions
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
