@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="utility.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="libraryplaylist.css">
 </head>
 
 <body>
     <nav class="flex">
-        <div class="logo">
+        <div class="logo flex">
             <img src="icons/logo.svg" alt="" width="30px">
+            <div class="spotify">Spotify</div>
         </div>
         <div class="home">
             <img src="icons/home-icon-silhouette-svgrepo-com.svg" alt="" width="25px">
@@ -36,16 +39,103 @@
     <div class="container flex">
 
         <div class="library">
-            <div class="libraryNav flex">
-                <div class="item">Your Library</div>
-                <div class="item">
-                    <img src="icons/plus-circle.svg" alt="add">
+
+            <div class="libraryNavbar flex">
+                <div class="librarynav">Your Library</div>
+                <div class="plus">
+                    <img src="icons/plus-circle.svg" alt="add" width="30px">
                 </div>
-                <div class="item">
-                    <img src="icons/arrow-right-short.svg" alt="expand">
+                <div class="arrow">
+                    <img src="icons/arrows-angle-expand.svg" alt="expand" width="20px">
+                </div>
+            </div>
+
+            <ul class="libraryselect flex">
+                <li class="librarylist">Playlist</li>
+                <li class="librarylist">Artist</li>
+                <li class="librarylist">Album</li>
+            </ul>
+
+            <div class="more flex">
+                <div class="searchicon">
+                    <img src="icons/icons8-search.svg" alt="search" width="25px">
+                </div>
+                <div class="recent flex">
+                    <div class="recentword">Recents</div>
+                    <img src="icons/list-ul.svg" alt="" width="15px">
+                </div>
+            </div>
+
+            <div class="librarycard flex">
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/liked-songs-640.jpg" alt="liked">
+                    </div>
+                    <div class="playlistname">Liked Songs</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/en2.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Your Top Songs 2025</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/discover.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Discover Weekly</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/trending.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Trending Now</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/en.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">On Repeat</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/billion.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">1 Billion Streams</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/daily.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Daily Mix 4</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/hits.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Hot Hits</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/hits.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Hot Hits</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/hits.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Hot Hits</div>
+                </div>
+                <div class="libraryplaylist flex">
+                    <div class="playlistimage flex">
+                        <img src="images/hits.jpeg" alt="liked">
+                    </div>
+                    <div class="playlistname">Hot Hits</div>
                 </div>
             </div>
         </div>
+
 
 
         <div class="section">
@@ -107,11 +197,11 @@
                 </div>
             </div>
 
-            <div class="name">
+            <div class="name flex">
                 <div class="made">Made For</div>
-                <div class="myname">Adarsh</div>
+                <span class="myname">Adarsh</span>
             </div>
-            
+
         </div>
 
     </div>

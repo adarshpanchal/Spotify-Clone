@@ -1,0 +1,39 @@
+.librarycard {
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+.libraryplaylist {
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    background-color: #121212;
+    font-size: 14px;
+    position: relative;
+}
+
+.libraryplaylist:hover {
+    background-color: rgb(42,42,42);
+    cursor: pointer;
+}
+.playlistimage{
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding: 5px 0px;
+}
+.playlistimage img {
+    border-radius: 5px;
+    height: 55px;
+    width: 55px;
+    top: 50%;
+    left: 50%;
+    /* object-fit: cover; */
+    object-position: center;
+}
+
+.playlistname {
+    padding: 16px 8px;
+}

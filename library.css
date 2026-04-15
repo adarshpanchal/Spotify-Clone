@@ -1,0 +1,101 @@
+.library {
+    width: 20%;
+    height: calc(90vh - 70px);
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.libraryNavbar {
+    margin: 10px;
+}
+
+.libraryNavbar img {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.librarynav {
+    flex-grow: 2;
+    margin-left: 20px;
+    font-size: 18px;
+    padding: 10px 1px;
+}
+
+.plus {
+    width: 50px;
+    padding: 8px;
+    filter: brightness(0.7);
+}
+
+.plus img {
+    background-color: rgb(157, 157, 157);
+    border-radius: 40px;
+}
+
+.arrow {
+    width: 50px;
+    filter: brightness(0.7);
+}
+
+.arrow img {
+    padding: 14px 10px;
+}
+
+.libraryselect {
+    margin-left: 26px;
+    column-gap: 12px;
+}
+
+.libraryselect li {
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: rgb(42, 42, 42);
+}
+
+.libraryselect li:hover {
+    cursor: pointer;
+    background-color: #2f2e2e;
+}
+
+.libraryselect li.active {
+    background-color: white;
+    color: black;
+}
+
+.more {
+    margin-top: 10px;
+    margin-left: 26px;
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.more img {
+    filter: invert(1);
+    cursor: pointer;
+}
+
+.searchicon {
+    flex-grow: 2;
+    font-size: 18px;
+    padding: 10px 1px;
+    filter: brightness(0.7);
+}
+
+.recent {
+    padding: 15px;
+    column-gap: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--gray);
+    cursor: pointer;
+}
+
+.recent:hover {
+    color: #d4cfcf;
+    transform: scale(1.04);
+}

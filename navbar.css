@@ -14,7 +14,13 @@ nav img {
     width: 30%;
     padding: 10px;
 }
-
+.spotify{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.spotify:hover{
+    cursor: pointer;
+}
 .home {
     padding: 6px 12px;
     background-color: var(--bggray);
@@ -30,7 +36,6 @@ nav img {
     padding: 12px;
     border-radius: 30px;
     margin: 20px;
-    color: grey;
     cursor: text;
     background: url("icons/icons8-search.svg");
     background-repeat: no-repeat;
@@ -41,17 +46,18 @@ nav img {
     font-family: "Host Grotesk";
 }
 
-placeholder{
-    color: var(--gray);
+input::placeholder{
+    color:var(--gray);
     padding: 4px;
 }
 
 input {
     border: 1px solid var(--bggray);
     background-color: var(--bggray);
+    color: white;
 }
 input:hover{
-    background-color: #282828;;
+    background-color: #282828;
 }
 
 .premium {
